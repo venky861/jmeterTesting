@@ -44,7 +44,7 @@
   
   <target name="execute" depends="init">        
     <exec executable="${jmeter.bat}">
-      <arg line="-n -t  ${jmeter.project} -l ${jtl.path} -o ${reports.dir}" />
+      <arg line="-n -t  ${jmeter.project} -l ${jtl.path} -o ${reports.dir} -JchromeDriverPath=${driver.path} " />
     </exec>   
   </target>
   
@@ -54,5 +54,5 @@
     </exec>   
   </target>
   <target name="all" depends="clean,show-test-properties, init,report" />
-	
+   
 </project>
