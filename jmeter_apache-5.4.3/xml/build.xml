@@ -50,7 +50,7 @@
   
   <target name="report" depends="execute">
     <exec executable="${jmeter.bat}">
-      <arg line="jmeter -g  ${jtl.path}  -o ${reports.dir}" />         
+      <arg line="-g  ${jtl.path}  -o ${reports.dir}" />         
     </exec>   
   </target>
   <target name="all" depends="clean,show-test-properties, init,report" />
