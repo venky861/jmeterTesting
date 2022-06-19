@@ -1,0 +1,4 @@
+UserName,password,assetClass,strategy
+Profile.Automation@preqin.com,password1234,HF,Fund of Funds
+Profile.Automation@preqin.com,password1234,PD,Balanced
+Profile.Automation@preqin.com,password1234,PE,Buyout
