@@ -13,6 +13,7 @@
   <property name="count" value="${env.CDC_COUNT}" />
   <property name="driver.path" value="${basedir}/driver/chromedriver.exe" />
   <property name="jmeterbin.path" value="${jmeter.home}/bin/" />
+  <property name="environment.name" value="${env.CDC_ENVIRONMENT_NAME}" />
   <property name="jmeter.bat" value="${basedir}/bin/jmeter.bat" />
   <property name="myname" value="${env.myName}" />
 
@@ -44,7 +45,7 @@
   
   <target name="execute" depends="init">        
     <exec executable="${jmeter.bat}">
-      <arg line="-n -t  ${jmeter.project} -l ${jtl.path} -o ${reports.dir} -Juserinfo=${userdata.path} -JchromeDriverPath=${driver.path}" />         
+      <arg line="-n -t  ${jmeter.project} -l ${jtl.path} -o ${reports.dir} -Juserinfo=${userdata.path} -Jusers=${numberofusers} -Jrampup=${rampup} -Jforever=${count} -JIDENTITY_URL=${identity} -JBASE_URL=${probase} -JUSERPREF_URL=${userpref} -JchromeDriverPath=${driver.path} -Jenvironment=${environment.name} -JPROAPI_IDENTITY_URL=${proapiidentityurl} -JAPIKEY=${apikey} -JSIZE=${size} " />         
     </exec>   
   </target>
   
