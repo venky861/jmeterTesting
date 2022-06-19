@@ -1,154 +1,101 @@
-2020-08-23 12:05:27,043 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2020-08-23 12:05:27,064 INFO o.a.j.JMeter: Loading user properties from: user.properties
-2020-08-23 12:05:27,065 INFO o.a.j.JMeter: Loading system properties from: system.properties
-2020-08-23 12:05:27,066 INFO o.a.j.JMeter: Setting JMeter property: userinfo=C:\PreqinExports\apache-jmeter-5.1.1\apache-jmeter-5.1.1\cura/data/userInfo.csv
-2020-08-23 12:05:27,066 INFO o.a.j.JMeter: Setting JMeter property: users=2
-2020-08-23 12:05:27,066 INFO o.a.j.JMeter: Setting JMeter property: rampup=1
-2020-08-23 12:05:27,067 INFO o.a.j.JMeter: Setting JMeter property: forever=1
-2020-08-23 12:05:27,067 INFO o.a.j.JMeter: Setting JMeter property: chromeDriverPath=C:\PreqinExports\apache-jmeter-5.1.1\apache-jmeter-5.1.1\cura/driver/chromedriver.exe
-2020-08-23 12:05:27,074 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
-2020-08-23 12:05:27,075 INFO o.a.j.JMeter: Version 5.1.1 r1855137
-2020-08-23 12:05:27,075 INFO o.a.j.JMeter: java.version=1.8.0_231
-2020-08-23 12:05:27,075 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2020-08-23 12:05:27,075 INFO o.a.j.JMeter: os.name=Windows 10
-2020-08-23 12:05:27,075 INFO o.a.j.JMeter: os.arch=amd64
-2020-08-23 12:05:27,075 INFO o.a.j.JMeter: os.version=10.0
-2020-08-23 12:05:27,075 INFO o.a.j.JMeter: file.encoding=Cp1252
-2020-08-23 12:05:27,075 INFO o.a.j.JMeter: java.awt.headless=true
-2020-08-23 12:05:27,075 INFO o.a.j.JMeter: Max memory     =1073741824
-2020-08-23 12:05:27,076 INFO o.a.j.JMeter: Available Processors =8
-2020-08-23 12:05:27,081 INFO o.a.j.JMeter: Default Locale=English (EN)
-2020-08-23 12:05:27,081 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2020-08-23 12:05:27,081 INFO o.a.j.JMeter: JMeterHome=C:\PreqinExports\apache-jmeter-5.1.1\apache-jmeter-5.1.1
-2020-08-23 12:05:27,081 INFO o.a.j.JMeter: user.dir  =C:\PreqinExports\apache-jmeter-5.1.1\apache-jmeter-5.1.1\bin
-2020-08-23 12:05:27,082 INFO o.a.j.JMeter: PWD       =C:\PreqinExports\apache-jmeter-5.1.1\apache-jmeter-5.1.1\bin
-2020-08-23 12:05:27,087 INFO o.a.j.JMeter: IP: 192.168.0.107 Name: LAPTOP-3E6Q4VE7 FullName: host.docker.internal
-2020-08-23 12:05:27,091 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\PreqinExports\apache-jmeter-5.1.1\apache-jmeter-5.1.1\cura\results\reports'
-2020-08-23 12:05:27,094 INFO o.a.j.s.FileServer: Default base='C:\PreqinExports\apache-jmeter-5.1.1\apache-jmeter-5.1.1\bin'
-2020-08-23 12:05:27,100 INFO o.a.j.s.FileServer: Set new base='C:\PreqinExports\apache-jmeter-5.1.1\apache-jmeter-5.1.1\cura\project'
-2020-08-23 12:05:27,310 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2020-08-23 12:05:27,332 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2020-08-23 12:05:27,340 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2020-08-23 12:05:27,351 INFO o.a.j.s.SaveService: Loading file: C:\PreqinExports\apache-jmeter-5.1.1\apache-jmeter-5.1.1\cura\project\webdriver_Solution.jmx
-2020-08-23 12:05:27,434 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2020-08-23 12:05:27,434 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
-2020-08-23 12:05:27,434 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2020-08-23 12:05:27,434 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2020-08-23 12:05:27,512 INFO o.a.j.JMeter: Creating summariser <summary>
-2020-08-23 12:05:27,520 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2020-08-23 12:05:27,522 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2020-08-23 12:05:27,522 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2020-08-23 12:05:27,536 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2020-08-23 12:05:27,536 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2020-08-23 12:05:28,191 WARN o.a.j.r.ResultCollector: Error creating directories for C:\Users\Lenovo\Desktop
-2020-08-23 12:05:28,214 INFO o.a.j.JMeter: Running test (1598164528214)
-2020-08-23 12:05:28,260 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
-2020-08-23 12:05:28,260 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Thread Group.
-2020-08-23 12:05:28,260 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2020-08-23 12:05:28,261 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=2 delayedStart=false
-2020-08-23 12:05:28,290 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2020-08-23 12:05:28,291 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2020-08-23 12:05:33,261 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
-2020-08-23 12:05:34,262 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
-2020-08-23 12:05:41,748 INFO o.a.j.s.FileServer: Stored: C:\PreqinExports\apache-jmeter-5.1.1\apache-jmeter-5.1.1\cura/data/userInfo.csv
-2020-08-23 12:05:42,168 INFO c.g.j.p.w.s.WebDriverSampler: Sampler for CRM started
-2020-08-23 12:05:42,168 INFO c.g.j.p.w.s.WebDriverSampler: Sampler for CRM started
-2020-08-23 12:05:43,102 INFO c.g.j.p.w.s.WebDriverSampler: Sample ended - navigated to Preqin Pro Login Page
-2020-08-23 12:05:43,128 INFO c.g.j.p.w.s.WebDriverSampler: Sample ended - navigated to Preqin Pro Login Page
-2020-08-23 12:06:10,698 ERROR c.g.j.p.w.s.WebDriverSampler: chrome not reachable
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1598164570704,0,Adding firm,500,"chrome not reachable
   (Session info: chrome=84.0.4147.135)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'LAPTOP-3E6Q4VE7', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\MALLIK~1.MUL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53520}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
 Session ID: 00fad2cd4670243a91ae9cb1799ea9d4
-*** Element info: {Using=id, value=i0116}
-2020-08-23 12:06:11,211 ERROR c.g.j.p.w.s.WebDriverSampler: chrome not reachable
+*** Element info: {Using=id, value=i0116}",Thread Group 1-1,text,false,Test failed: text expected to contain /TestFirmAdded2/,3839,0,2,2,null,0,0,0
+1598164571212,0,Adding firm,500,"chrome not reachable
   (Session info: chrome=84.0.4147.135)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'LAPTOP-3E6Q4VE7', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\MALLIK~1.MUL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
 Session ID: 2a59a5d649fc9fc4cd60d647d563a502
-*** Element info: {Using=id, value=i0116}
-2020-08-23 12:06:22,755 ERROR c.g.j.p.w.s.WebDriverSampler: chrome not reachable
+*** Element info: {Using=id, value=i0116}",Thread Group 1-2,text,false,Test failed: text expected to contain /TestFirmAdded1/,3837,0,2,2,null,0,0,0
+1598164582756,0,Edit Firms,500,"chrome not reachable
+  (Session info: chrome=84.0.4147.135)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3E6Q4VE7', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\MALLIK~1.MUL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53520}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 00fad2cd4670243a91ae9cb1799ea9d4",Thread Group 1-1,text,false,Test failed: text expected to contain /TestFirmEdited2/,3118,0,2,2,null,0,0,0
+1598164583269,0,Edit Firms,500,"chrome not reachable
+  (Session info: chrome=84.0.4147.135)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3E6Q4VE7', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\MALLIK~1.MUL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2a59a5d649fc9fc4cd60d647d563a502",Thread Group 1-2,text,false,Test failed: text expected to contain /TestFirmEdited1/,3118,0,2,2,null,0,0,0
+1598164594795,0,AddContact,500,"chrome not reachable
+  (Session info: chrome=84.0.4147.135)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3E6Q4VE7', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\MALLIK~1.MUL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53520}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 00fad2cd4670243a91ae9cb1799ea9d4",Thread Group 1-1,text,false,,3208,0,2,2,null,0,0,0
+1598164595296,0,AddContact,500,"chrome not reachable
+  (Session info: chrome=84.0.4147.135)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3E6Q4VE7', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\MALLIK~1.MUL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2a59a5d649fc9fc4cd60d647d563a502",Thread Group 1-2,text,false,,3208,0,2,2,null,0,0,0
+1598164606827,0,SearchContact,500,"chrome not reachable
+  (Session info: chrome=84.0.4147.135)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3E6Q4VE7', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\MALLIK~1.MUL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53520}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 00fad2cd4670243a91ae9cb1799ea9d4",Thread Group 1-1,text,false,Test failed: text expected to contain /AutoNameContact2/,3118,0,2,2,null,0,0,0
+1598164607325,0,SearchContact,500,"chrome not reachable
+  (Session info: chrome=84.0.4147.135)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3E6Q4VE7', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\MALLIK~1.MUL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2a59a5d649fc9fc4cd60d647d563a502",Thread Group 1-2,text,false,Test failed: text expected to contain /AutoNameContact1/,3118,0,2,2,null,0,0,0
+1598164618951,0,DeleteContact,500,"chrome not reachable
   (Session info: chrome=84.0.4147.135)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'LAPTOP-3E6Q4VE7', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\MALLIK~1.MUL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53520}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
 Session ID: 00fad2cd4670243a91ae9cb1799ea9d4
-2020-08-23 12:06:23,269 ERROR c.g.j.p.w.s.WebDriverSampler: chrome not reachable
+*** Element info: {Using=css selector, value=.grid_row td:nth-child(2) a}",Thread Group 1-1,text,false,,3888,0,2,2,null,0,0,0
+1598164619455,0,DeleteContact,500,"chrome not reachable
   (Session info: chrome=84.0.4147.135)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'LAPTOP-3E6Q4VE7', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\MALLIK~1.MUL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
 Session ID: 2a59a5d649fc9fc4cd60d647d563a502
-2020-08-23 12:06:34,795 ERROR c.g.j.p.w.s.WebDriverSampler: chrome not reachable
+*** Element info: {Using=css selector, value=.grid_row td:nth-child(2) a}",Thread Group 1-2,text,false,,3888,0,2,2,null,0,0,0
+1598164630984,0,Delete Firm,500,"chrome not reachable
   (Session info: chrome=84.0.4147.135)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'LAPTOP-3E6Q4VE7', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\MALLIK~1.MUL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53520}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 00fad2cd4670243a91ae9cb1799ea9d4
-2020-08-23 12:06:34,796 INFO o.a.j.r.Summariser: summary +      5 in 00:01:07 =    0.1/s Avg:     0 Min:     0 Max:     0 Err:     5 (100.00%) Active: 2 Started: 2 Finished: 0
-2020-08-23 12:06:35,296 ERROR c.g.j.p.w.s.WebDriverSampler: chrome not reachable
+Session ID: 00fad2cd4670243a91ae9cb1799ea9d4",Thread Group 1-1,text,false,"Test failed: text expected to contain /Delete Entity
+/",3119,0,2,2,null,0,0,0
+1598164631497,0,Delete Firm,500,"chrome not reachable
   (Session info: chrome=84.0.4147.135)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'LAPTOP-3E6Q4VE7', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\MALLIK~1.MUL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 2a59a5d649fc9fc4cd60d647d563a502
-2020-08-23 12:06:46,827 ERROR c.g.j.p.w.s.WebDriverSampler: chrome not reachable
-  (Session info: chrome=84.0.4147.135)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'LAPTOP-3E6Q4VE7', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\MALLIK~1.MUL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53520}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 00fad2cd4670243a91ae9cb1799ea9d4
-2020-08-23 12:06:47,325 ERROR c.g.j.p.w.s.WebDriverSampler: chrome not reachable
-  (Session info: chrome=84.0.4147.135)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'LAPTOP-3E6Q4VE7', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\MALLIK~1.MUL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 2a59a5d649fc9fc4cd60d647d563a502
-2020-08-23 12:06:58,951 ERROR c.g.j.p.w.s.WebDriverSampler: chrome not reachable
-  (Session info: chrome=84.0.4147.135)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'LAPTOP-3E6Q4VE7', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\MALLIK~1.MUL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53520}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 00fad2cd4670243a91ae9cb1799ea9d4
-*** Element info: {Using=css selector, value=.grid_row td:nth-child(2) a}
-2020-08-23 12:06:59,455 ERROR c.g.j.p.w.s.WebDriverSampler: chrome not reachable
-  (Session info: chrome=84.0.4147.135)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'LAPTOP-3E6Q4VE7', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\MALLIK~1.MUL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 2a59a5d649fc9fc4cd60d647d563a502
-*** Element info: {Using=css selector, value=.grid_row td:nth-child(2) a}
-2020-08-23 12:07:10,983 ERROR c.g.j.p.w.s.WebDriverSampler: chrome not reachable
-  (Session info: chrome=84.0.4147.135)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'LAPTOP-3E6Q4VE7', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\MALLIK~1.MUL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53520}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 00fad2cd4670243a91ae9cb1799ea9d4
-2020-08-23 12:07:10,984 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
-2020-08-23 12:07:10,984 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
-2020-08-23 12:07:11,496 ERROR c.g.j.p.w.s.WebDriverSampler: chrome not reachable
-  (Session info: chrome=84.0.4147.135)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'LAPTOP-3E6Q4VE7', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\MALLIK~1.MUL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 2a59a5d649fc9fc4cd60d647d563a502
-2020-08-23 12:07:11,497 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
-2020-08-23 12:07:11,497 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
-2020-08-23 12:07:12,103 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2020-08-23 12:07:12,103 INFO o.a.j.s.FileServer: Close: C:\PreqinExports\apache-jmeter-5.1.1\apache-jmeter-5.1.1\cura/data/userInfo.csv
-2020-08-23 12:07:12,104 INFO o.a.j.r.Summariser: summary +      7 in 00:00:37 =    0.2/s Avg:     0 Min:     0 Max:     0 Err:     7 (100.00%) Active: 0 Started: 2 Finished: 2
-2020-08-23 12:07:12,105 INFO o.a.j.r.Summariser: summary =     12 in 00:01:44 =    0.1/s Avg:     0 Min:     0 Max:     0 Err:    12 (100.00%)
+Session ID: 2a59a5d649fc9fc4cd60d647d563a502",Thread Group 1-2,text,false,"Test failed: text expected to contain /Delete Entity
+/",3119,0,2,2,null,0,0,0
+1655651117060,2763,HTTP Request,200,OK,TestingApis 1-1,text,true,,280001,129,1,1,https://api.publicapis.org/entries,1639,0,1396
+1655651116996,2763,Transaction Controller,200,"Number of samples in transaction : 1, number of failing samples : 0",TestingApis 1-1,,true,,280001,129,1,1,null,1639,72,1396
+1655651202441,2611,HTTP Request,200,OK,TestingApis 1-1,text,true,,280001,129,1,1,https://api.publicapis.org/entries,1683,0,1440
+1655651202378,2611,Transaction Controller,200,"Number of samples in transaction : 1, number of failing samples : 0",TestingApis 1-1,,true,,280001,129,1,1,null,1683,70,1440
+1655654148634,2589,HTTP Request,200,OK,TestingApis 1-1,text,true,,280001,129,1,1,https://api.publicapis.org/entries,1685,0,1432
+1655654148571,2589,Transaction Controller,200,"Number of samples in transaction : 1, number of failing samples : 0",TestingApis 1-1,,true,,280001,129,1,1,null,1685,70,1432
+1655654786016,2745,HTTP Request,200,OK,TestingApis 1-1,text,true,,280001,129,1,1,https://api.publicapis.org/entries,1642,0,1411
+1655654785948,2745,Transaction Controller,200,"Number of samples in transaction : 1, number of failing samples : 0",TestingApis 1-1,,true,,280001,129,1,1,null,1642,77,1411
+1655656455923,2973,HTTP Request,200,OK,TestingApis 1-1,text,true,,280001,129,1,1,https://api.publicapis.org/entries,1649,0,1416
+1655656455860,2973,Transaction Controller,200,"Number of samples in transaction : 1, number of failing samples : 0",TestingApis 1-1,,true,,280001,129,1,1,null,1649,85,1416
