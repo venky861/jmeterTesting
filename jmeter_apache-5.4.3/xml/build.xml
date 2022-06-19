@@ -44,7 +44,7 @@
   
   <target name="execute" depends="init">        
     <exec executable="${jmeter.bat}">
-      <arg line="-n -t  ${jmeter.project} -l ${jtl.path} -o ${reports.dir} -Juserinfo=${userdata.path} -JchromeDriverPath=${driver.path}" />         
+      <arg line="-n -t  ${jmeter.project} -l ${userdata.path} -o ${reports.dir} -Juserinfo=${userdata.path} -JchromeDriverPath=${driver.path}" />         
     </exec>   
   </target>
   
