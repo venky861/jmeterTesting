@@ -93,3 +93,7 @@ Session ID: 2a59a5d649fc9fc4cd60d647d563a502",Thread Group 1-2,text,false,"Test 
 1655651116996,2763,Transaction Controller,200,"Number of samples in transaction : 1, number of failing samples : 0",TestingApis 1-1,,true,,280001,129,1,1,null,1639,72,1396
 1655651202441,2611,HTTP Request,200,OK,TestingApis 1-1,text,true,,280001,129,1,1,https://api.publicapis.org/entries,1683,0,1440
 1655651202378,2611,Transaction Controller,200,"Number of samples in transaction : 1, number of failing samples : 0",TestingApis 1-1,,true,,280001,129,1,1,null,1683,70,1440
+1655654148634,2589,HTTP Request,200,OK,TestingApis 1-1,text,true,,280001,129,1,1,https://api.publicapis.org/entries,1685,0,1432
+1655654148571,2589,Transaction Controller,200,"Number of samples in transaction : 1, number of failing samples : 0",TestingApis 1-1,,true,,280001,129,1,1,null,1685,70,1432
+1655654786016,2745,HTTP Request,200,OK,TestingApis 1-1,text,true,,280001,129,1,1,https://api.publicapis.org/entries,1642,0,1411
+1655654785948,2745,Transaction Controller,200,"Number of samples in transaction : 1, number of failing samples : 0",TestingApis 1-1,,true,,280001,129,1,1,null,1642,77,1411

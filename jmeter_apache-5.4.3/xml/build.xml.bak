@@ -5,7 +5,7 @@
   <property name="results.dir" value="${basedir}/results" />
   <property name="reports.dir" value="${results.dir}/reports" />
   <property name="html.dir" value="${reports.dir}/html" />
-  <property name="jmeter.project" value="${basedir}/project/${env.CDC_PROJECTNAME}.jmx" />
+  <property name="jmeter.project" value="${basedir}/data/${env.CDC_PROJECTNAME}.jmx" />
   <property name="jtl.path" value="${results.dir}/results.jtl" />
   <property name="userdata.path" value="${basedir}/data/${env.USERDATA_FILENAME}.csv" />
   <property name="numberofusers" value="${env.CDC_NUMBER_OF_USERS}" />
@@ -44,7 +44,7 @@
   
   <target name="execute" depends="init">        
     <exec executable="${jmeter.bat}">
-      <arg line="-n -t  ${jmeter.project} -l ${jtl.path} -o ${reports.dir} -Juserinfo=${userdata.path} -JchromeDriverPath=${driver.path}" />
+      <arg line="-n -t  ${jmeter.project} -l ${jtl.path} -o ${reports.dir}" />
     </exec>   
   </target>
   
